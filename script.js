@@ -1,7 +1,11 @@
-for (let num = 1; num <= 20; num++) {
+let mostrarNumeros = document.querySelector(".Numeros");
+
+mostrarNumeros.onclick = function (){
+  for (let num = 1; num <= 20; num++) {
     if (num % 2 === 0) {
       console.log(num + " es par");
     } else {
       console.log(num + " es impar");
     }
   }
+}
